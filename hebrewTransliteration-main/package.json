@@ -1,5 +1,5 @@
 {
-  "name": "hebrewransliteration",
+  "name": "hebrewtransliteration",
   "description": "A web app for transliterating Hebrew",
   "author": "charlesLoder",
   "license": "MIT",
@@ -32,5 +32,8 @@
     "netlify-cli": "^17.25.0",
     "npm-check-updates": "^16.14.20",
     "patch-package": "^8.0.0"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
