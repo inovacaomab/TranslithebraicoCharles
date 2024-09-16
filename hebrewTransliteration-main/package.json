@@ -29,11 +29,12 @@
     "dotenv": "^16.4.5",
     "esbuild": "^0.21.4",
     "html-minifier": "^4.0.0",
-    "netlify-cli": "^17.25.0",
+    "netlify-cli": "^17.26.0",  // Atualizado para a versão mais recente
     "npm-check-updates": "^16.14.20",
     "patch-package": "^8.0.0"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"  // Atualizado para uma versão LTS mais recente
   }
 }
+
