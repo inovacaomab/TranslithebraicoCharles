@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>
+    Hebrew Transliteration
+    
+  </title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "");
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="og:site_name" content="Hebrew Transliteration App"/>
+  <meta name="keywords" content="hebrew transliteration, hebrew to english transliteration, hebrew transliteration tool, transliterate hebrew, hebrew romanization converter, online hebrew transliteration, biblical hebrew transliteration, sbl hebrew transliteration"/>
+  <meta property="og:title" content="Hebrew Transliteration"/>
+  
+    <meta name="description" content="Accurate Hebrew transliteration made easy: use premade or custom schemas for academic or personal needs."/>
+    <meta name="og:description" content="Accurate Hebrew transliteration made easy: use premade or custom schemas for academic or personal needs."/>
+  
+  
+    <meta name="og:image" content="https://hebrewtransliteration.app/assets/img/hebrew-transliteration-card.png"/>
+  
+  <!-- Twitter meta -->
+  
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@charles_loder"/>
+  
+  <meta name="generator" content="Eleventy"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+  <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+  
+  <style>:root{--ht-purple:#7370af;--ht-purple-hover:#857cfc;--ht-success:#51d195;--lm-base-body-bg-image:linear-gradient(#f7f7f7, #ced6e0);--dm-base-body-bg-image:linear-gradient(#191c20, #111417);--dm-button-primary-bg-color:var(--ht-purple);--dm-button-primary-border-color:var(--ht-purple);--dm-button-primary-bg-color-hover:var(--ht-purple-hover);--dm-button-primary-border-color-hover:var(--ht-purple-hover);--dm-button-primary-text-color:#ffffff;--lm-button-primary-bg-color:var(--ht-purple);--lm-button-primary-border-color:var(--ht-purple);--lm-button-primary-bg-color-hover:var(--ht-purple-hover);--lm-button-primary-border-color-hover:var(--ht-purple-hover);--dm-button-success-bg-color:var(--ht-success);--dm-button-success-border-color:var(--ht-success);--dm-input-border-color-focus:var(--ht-purple);--lm-input-border-color-focus:var(--ht-purple);--dm-progress-bar-bg-color:var(--ht-purple);--lm-progress-bar-bg-color:var(--ht-purple-hover);--dm-checkbox-bg-color-checked:var(--ht-purple);--dm-checkbox-border-color-checked:var(--ht-purple);--lm-checkbox-bg-color-checked:var(--ht-purple);--lm-checkbox-border-color-checked:var(--ht-purple);--dm-link-text-color:var(--ht-purple-hover);--dm-link-text-color-hover:var(--ht-purple-hover);--lm-link-text-color:var(--ht-purple);--lm-link-text-color-hover:var(--ht-purple-hover);--modal-content-max-width:50rem;--tooltip-width:15rem}.dark-mode .content-wrapper{background-image:var(--dm-base-body-bg-image)}textarea{resize:vertical}.heb-text-area{font-family:"SBL Hebrew","Times New Roman","serif"}.transliteration-text-area{font-family:Brill,"Charis SIL","Times New Roman","serif";font-style:italic}.sk-chase{width:18px;height:18px;position:relative;margin-top:27px;margin-bottom:-45px;animation:sk-chase 2.5s infinite linear both}.sk-chase-dot{width:100%;height:100%;position:absolute;left:0;top:0;animation:sk-chase-dot 2s infinite ease-in-out both}.sk-chase-dot:before{content:"";display:block;width:25%;height:25%;background-color:#fff;border-radius:100%;animation:sk-chase-dot-before 2s infinite ease-in-out both}.sk-chase-dot:first-child{animation-delay:-1.1s}.sk-chase-dot:nth-child(2){animation-delay:-1s}.sk-chase-dot:nth-child(3){animation-delay:-.9s}.sk-chase-dot:nth-child(4){animation-delay:-.8s}.sk-chase-dot:nth-child(5){animation-delay:-.7s}.sk-chase-dot:nth-child(6){animation-delay:-.6s}.sk-chase-dot:first-child:before{animation-delay:-1.1s}.sk-chase-dot:nth-child(2):before{animation-delay:-1s}.sk-chase-dot:nth-child(3):before{animation-delay:-.9s}.sk-chase-dot:nth-child(4):before{animation-delay:-.8s}.sk-chase-dot:nth-child(5):before{animation-delay:-.7s}.sk-chase-dot:nth-child(6):before{animation-delay:-.6s}@keyframes sk-chase{100%{transform:rotate(360deg)}}@keyframes sk-chase-dot{100%,80%{transform:rotate(360deg)}}@keyframes sk-chase-dot-before{50%{transform:scale(.4)}0%,100%{transform:scale(1)}}a.social-link{color:var(--ht-purple)}a.social-link:hover{text-decoration:none}.gap-1{gap:.5rem}.gap-2{gap:1rem}</style>
+  <link rel="icon" href="/assets/img/favicon.svg"/>
+  <script defer="true" src="/assets/friconix.js"></script>
+  <link rel="preload" href="/assets/img/bmc-button.svg" as="image">
+
+  
+  <link
+    rel="preload"
+    as="style"
+    href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    onload="this.onload=null;this.rel='stylesheet'">
+</head>
+  <!-- htmlmin:ignore -->
+  <body <!--ELEVENTYEDGE_edge "liquid" %} class="{{ eleventy.edge.cookies['halfmoon_preferredMode'] }}" ELEVENTYEDGE_edge--> >
+    <!-- htmlmin:ignore -->
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <div
+  class="modal" id="feedback-modal" tabindex="-1" role="dialog">
+  <!-- Modal Dialog start -->
+  <div
+    class="modal-dialog" role="document">
+    <!-- Modal Content start -->
+    <div class="modal-content">
+      <a href="#" class="btn close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <!-- Modal Cards start -->
+      <div class="modal-cards" id="modal-cards">
+        
+  <!-- FEEDBACK FORM START -->
+  <div id="feedback" class="modal-card">
+    <form name="feedback" method="POST" data-netlify="true">
+      <fieldset>
+        <label class="mb-0" for="email">Email</label>
+        <p class="font-size-12 my-0 font-italic">only if you would like a response</p>
+        <input name="email" type="email" class="form-control"/>
+      </fieldset>
+      <fieldset class="mt-10">
+        <label for="issue">Issue type<span class="text-danger">*</span>
+        </label>
+        <select class="form-control" id="issue" name="issue" required>
+          <option value="" selected="selected" disabled="disabled">Select an issue type</option>
+          <option value="incorrect">Incorrect output</option>
+          <option value="error">Received an error</option>
+          <option value="generic">Generic feedback</option>
+          <option value="other">Other</option>
+        </select>
+      </fieldset>
+      <fieldset class="mt-10">
+        <label for="response">Feedback<span class="text-danger">*</span>
+        </label>
+        <textarea name="response" class="form-control" placeholder="Please include as much information as possible, including: Hebrew text, expected outcome, receieved outcome,or the error received" required></textarea>
+      </fieldset>
+      <div class="dropdown-divider my-15"></div>
+      <div
+        class="btn-container d-flex justify-content-between">
+        <!-- Submit -->
+        <button type="submit" class="btn btn-primary ml-auto" id="submit-btn">Submit</button>
+      </div>
+    </form>
+  </div>
+  <!-- FEEDBACK FORM END -->
+
+      </div>
+      <!-- Modal Cards end -->
+      
+    </div>
+    <!-- Modal Content end -->
+  </div>
+  <!-- Modal Dialog end -->
+</div>
+    
+      <!-- Modal start -->
+      <div
+  class="modal" id="schema-modal" tabindex="-1" role="dialog">
+  <!-- Modal Dialog start -->
+  <div
+    class="modal-dialog" role="document">
+    <!-- Modal Content start -->
+    <div class="modal-content">
+      <a href="#" class="btn close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <!-- Modal Cards start -->
+      <div class="modal-cards" id="modal-cards">
+        
+  <!-- SCHEMA start -->
+  <div class="modal-card d-block" id="schema-select-modal">
+    <h5 class="modal-title">Choose a schema</h5>
+    <!-- Progress bars -->
+    <div class="sr-only" id="customization">customization</div>
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="0"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="schema-form">
+      <div
+        class="form-group d-flex flex-column">
+        <!-- Schema select start -->
+        <div class="schema-select-wrapper">
+          <label for="schema-select">Either choose a transliteration schema from the list below:</label>
+          <select class="form-control" id="select-schema" name="schema-select">
+            
+              <option value="brillAcademic">Brill Academic</option>
+            
+              <option value="brillSimple">Brill Simplified</option>
+            
+              <option value="jss">Journal of Semitic Studies</option>
+            
+              <option value="michiganClaremont">Michigan-Claremont</option>
+            
+              <option value="romaniote">Romaniote</option>
+            
+              <option value="sblAcademic">SBL Academic</option>
+            
+              <option value="sblAcademicSpirantization">SBL Academic with Spirantization</option>
+            
+              <option value="sblSimple">SBL General Purpose</option>
+            
+              <option value="tiberian">Tiberian</option>
+            
+          </select>
+        </div>
+        <!-- Schema select end -->
+        <!-- File input start -->
+        <div class="file-input-wrapper mt-10">
+          <div>
+            Or upload your own:
+          </div>
+          <div class="custom-file">
+            <input type="file" id="schema-input" accept=".json" class="w-full"/>
+            <label for="schema-input" class="w-full">...</label>
+          </div>
+        </div>
+        <!-- File input end -->
+      </div>
+      <a href="#" class="btn btn-success w-full" role="button">Use this schema!</a>
+    </form>
+  </div>
+  <!-- SCHEMA end -->
+  <!-- CONSONANTS (1) start -->
+  <div class="modal-card d-none" id="consonants-1-modal">
+    <h5 class="modal-title">Consonants (1 of 3)</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 11%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="11"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="consonants-1-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div
+              class="col-sm">
+              <!-- ALEF -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="ALEF">Aleph א</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="ALEF" id="ALEF"/>
+                </div>
+              </div>
+              <!-- BET -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="BET">Bet ב</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="BET" id="BET"/>
+                </div>
+              </div>
+              <!-- BET_DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="BET_DAGESH">Bet Dagesh בּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="BET_DAGESH" id="BET_DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Optional, defaults to form without dagesh" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- GIMEL -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="GIMEL">Gimel ג</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="GIMEL" id="GIMEL"/>
+                </div>
+              </div>
+            </div>
+            <!-- Middle Col -->
+            <div
+              class="col-sm">
+              <!-- GIMEL_DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="GIMEL_DAGESH">Gimel Dagesh גּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="GIMEL_DAGESH" id="GIMEL_DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Optional, defaults to form without dagesh" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- DALET -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="DALET">Dalet ד</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="DALET" id="DALET"/>
+                </div>
+              </div>
+              <!-- DALET_DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="DALET_DAGESH">Dalet Dagesh דּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="DALET_DAGESH" id="DALET_DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Optional, defaults to form without dagesh" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- HE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HE">He ה</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HE" id="HE"/>
+                </div>
+              </div>
+            </div>
+            <!-- Right Col -->
+            <div
+              class="col-sm">
+              <!-- VAV -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="VAV">Waw ו</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="VAV" id="VAV"/>
+                </div>
+              </div>
+              <!-- ZAYIN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="ZAYIN">Zayin ז</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="ZAYIN" id="ZAYIN"/>
+                </div>
+              </div>
+              <!-- HET -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HET">Het ח</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HET" id="HET"/>
+                </div>
+              </div>
+              <!-- TET -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TET">Tet ט</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TET" id="TET"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- CONSONANTS (1) end -->
+  <!-- CONSONANTS (2) start -->
+  <div class="modal-card d-none" id="consonants-2-modal">
+    <h5 class="modal-title">Consonants (2 of 3)</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 22%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="22"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="consonants-2-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div
+              class="col-sm">
+              <!-- YOD -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="YOD">Yod</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="YOD" id="YOD"/>
+                </div>
+              </div>
+              <!-- KAF -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="KAF">Kaf כ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="KAF" id="KAF"/>
+                </div>
+              </div>
+              <!-- KAF_DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="KAF_DAGESH">Kaf Dagesh כּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="KAF_DAGESH" id="KAF_DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Optional, defaults to form without dagesh" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- FINAL_KAF -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="FINAL_KAF">Final Kaf ך</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="FINAL_KAF" id="FINAL_KAF"/>
+                </div>
+              </div>
+            </div>
+            <!-- Middle Col -->
+            <div
+              class="col-sm">
+              <!-- LAMED -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="LAMED">Lamed ל</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="LAMED" id="LAMED"/>
+                </div>
+              </div>
+              <!-- MEM -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="MEM">Mem מ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="MEM" id="MEM"/>
+                </div>
+              </div>
+              <!-- FINAL_MEM -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="FINAL_MEM">Final Mem ם</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="FINAL_MEM" id="FINAL_MEM"/>
+                </div>
+              </div>
+              <!-- NUN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="NUN">Nun נ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="NUN" id="NUN"/>
+                </div>
+              </div>
+            </div>
+            <!-- Right Col -->
+            <div
+              class="col-sm">
+              <!-- FINAL_NUN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="FINAL_NUN">Final Nun ן</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="FINAL_NUN" id="FINAL_NUN"/>
+                </div>
+              </div>
+              <!-- SAMEKH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SAMEKH">Samekh ס</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SAMEKH" id="SAMEKH"/>
+                </div>
+              </div>
+              <!-- AYIN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="AYIN">Ayin ע</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="AYIN" id="AYIN"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- CONSONANTS (2) end -->
+  <!-- CONSONANTS (3) start -->
+  <div class="modal-card d-none" id="consonants-3-modal">
+    <h5 class="modal-title">Consonants (3 of 3)</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 33%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="33"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="consonants-3-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div
+              class="col-sm">
+              <!-- PE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="PE">Pe פ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="PE" id="PE"/>
+                </div>
+              </div>
+              <!-- PE_DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="PE_DAGESH">Pe Dagesh פּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="PE_DAGESH" id="PE_DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Optional, defaults to form without dagesh" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- FINAL_PE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="FINAL_PE">Final Pe ף</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="FINAL_PE" id="FINAL_PE"/>
+                </div>
+              </div>
+              <!-- TSADI -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TSADI">Tsadi צ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TSADI" id="TSADI"/>
+                </div>
+              </div>
+            </div>
+            <!-- Middle Col -->
+            <div
+              class="col-sm">
+              <!-- FINAL_TSADI -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="FINAL_TSADI">Fianl Tsadi ץ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="FINAL_TSADI" id="FINAL_TSADI"/>
+                </div>
+              </div>
+              <!-- QOF -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="QOF">Qof ק</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="QOF" id="QOF"/>
+                </div>
+              </div>
+              <!-- RESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="RESH">Resh ר</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="RESH" id="RESH"/>
+                </div>
+              </div>
+              <!-- SIN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SIN">Sin שׂ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SIN" id="SIN"/>
+                </div>
+              </div>
+            </div>
+            <!-- Right Col -->
+            <div
+              class="col-sm">
+              <!-- SHIN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SHIN">Shin שׁ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SHIN" id="SHIN"/>
+                </div>
+              </div>
+              <!-- TAV -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TAV">Tav ת</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TAV" id="TAV"/>
+                </div>
+              </div>
+              <!-- TAV_DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TAV_DAGESH">Tav Dagesh תּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TAV_DAGESH" id="TAV_DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Optional, defaults to form without dagesh" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- CONSONANTS (3) end -->
+  <!-- VOWELS (1) start -->
+  <div class="modal-card d-none" id="vowels-1-modal">
+    <h5 class="modal-title">Vowels (1 of 2)</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 44%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="44"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="vowels-1-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div
+              class="col-sm">
+              <!-- VOCAL_SHEVA -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="VOCAL_SHEVA">Vocal Shewa ְ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="VOCAL_SHEVA" id="VOCAL_SHEVA"/>
+                </div>
+              </div>
+              <!-- PATAH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="PATAH">Patah  ַ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="PATAH" id="PATAH"/>
+                </div>
+              </div>
+              <!-- FURTIVE_PATAH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="FURTIVE_PATAH">Furtive Patah ◌ַ
+                </label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="FURTIVE_PATAH" id="FURTIVE_PATAH"/>
+                </div>
+              </div>
+              <!-- HATAF_PATAH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HATAF_PATAH">Hataf Patah ֲ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HATAF_PATAH" id="HATAF_PATAH"/>
+                </div>
+              </div>
+            </div>
+            <!-- Middle Col -->
+            <div
+              class="col-sm">
+              <!-- QAMATS -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="QAMATS">Qamets ָ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="QAMATS" id="QAMATS"/>
+                </div>
+              </div>
+              <!-- HATAF_QAMATS -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HATAF_QAMATS">Hataf Qamets ֳ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HATAF_QAMATS" id="HATAF_QAMATS"/>
+                </div>
+              </div>
+              <!-- TSERE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TSERE">Tsere ֵ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TSERE" id="TSERE"/>
+                </div>
+              </div>
+              <!-- SEGOL -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SEGOL">Segol ֶ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SEGOL" id="SEGOL"/>
+                </div>
+              </div>
+            </div>
+            <!-- Right Col -->
+            <div
+              class="col-sm">
+              <!-- HATAF_SEGOL -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HATAF_SEGOL">Hataf Segol ֱ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HATAF_SEGOL" id="HATAF_SEGOL"/>
+                </div>
+              </div>
+              <!-- HIRIQ -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HIRIQ">Hiriq ִ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HIRIQ" id="HIRIQ"/>
+                </div>
+              </div>
+              <!-- HOLAM -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HOLAM">Holam ֹ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HOLAM" id="HOLAM"/>
+                </div>
+              </div>
+              <!-- QUBUTS -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="QUBUTS">Qubuts ֻ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="QUBUTS" id="QUBUTS"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- VOWELS (1) end -->
+  <!-- VOWELS (2) -->
+  <div class="modal-card d-none" id="vowels-2-modal">
+    <h5 class="modal-title">Vowels (2 of 2)</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 55%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="55"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="vowels-2-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div
+              class="col-sm">
+              <!-- QAMATS_QATAN -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="QAMATS_QATAN">Qamets Qatan ׇ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="QAMATS_QATAN" id="QAMATS_QATAN"/>
+                </div>
+              </div>
+              <!-- HOLAM_VAV -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HOLAM_VAV">Holam Waw ֹו◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HOLAM_VAV" id="HOLAM_VAV"/>
+                </div>
+              </div>
+              <!-- SHUREQ -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SHUREQ">Shureq וּ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SHUREQ" id="SHUREQ"/>
+                </div>
+              </div>
+            </div>
+            <!-- Middle Col -->
+            <div
+              class="col-sm">
+              <!-- HIRIQ_YOD -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="HIRIQ_YOD">Hiriq Yod י◌ִ
+                </label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="HIRIQ_YOD" id="HIRIQ_YOD"/>
+                </div>
+              </div>
+              <!-- SEGOL_YOD -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SEGOL_YOD">Segol Yod י◌ֶ
+                </label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SEGOL_YOD" id="SEGOL_YOD"/>
+                </div>
+              </div>
+              <!-- TSERE_YOD -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TSERE_YOD">Tsere Yod י◌ֵ
+                </label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TSERE_YOD" id="TSERE_YOD"/>
+                </div>
+              </div>
+            </div>
+            <!-- Right Col -->
+            <div
+              class="col-sm">
+              <!-- QAMATS_HE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="QAMATS_HE">Qamets He ה◌ָ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="QAMATS_HE" id="QAMATS_HE"/>
+                </div>
+              </div>
+              <!-- SEGOL_HE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SEGOL_HE">Segol He ה◌ֶ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SEGOL_HE" id="SEGOL_HE"/>
+                </div>
+              </div>
+              <!-- TSERE_HE -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="TSERE_HE">Tsere He ה◌ֵ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="TSERE_HE" id="TSERE_HE"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- VOWELS (2) end -->
+  <!-- SYLLABIFICATION start -->
+  <div class="modal-card d-none" id="syllabification-modal">
+    <h5 class="modal-title">Syllabification</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 66%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="66"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="syllabification-form">
+      <p>Select various options for dividing syllables. Most transliteration schemas will have all checked. Hover over the
+        tooltip to learn more about each option.</p>
+      <div class="form-group">
+        <h6>Select the following options:</h6>
+        <div
+          class="container-sm">
+          <!-- Row 1 start -->
+          <div
+            class="row">
+            <!-- longVowels checkbox -->
+            <div class="col-sm custom-checkbox form-group">
+              <input type="checkbox" name="longVowels" id="longVowels" value=""/>
+              <label for="longVowels">Long Vowels</label>
+              <span
+                class="mx-5"
+                data-toggle="tooltip"
+                data-title="Check if shewa after long vowels should be vocal"
+                data-placement="right">
+                <i class="fi-cnsdxm-exclamation-mark"></i>
+              </span>
+            </div>
+            <!-- qametsQatan checkbox -->
+            <div class="col-sm custom-checkbox form-group">
+              <input type="checkbox" name="qametsQatan" id="qametsQatan" value=""/>
+              <label for="qametsQatan">Qamets Qatan</label>
+              <span
+                class="mx-5"
+                data-toggle="tooltip"
+                data-title="Check to convert appropriate qamets to qamets qatan"
+                data-placement="right">
+                <i class="fi-cnsdxm-exclamation-mark"></i>
+              </span>
+            </div>
+          </div>
+          <!-- Row 1 end -->
+          <!-- Row 2 start -->
+          <div
+            class="row">
+            <!-- sqnmlvy checkbox -->
+            <div class="col-sm custom-checkbox form-group">
+              <input type="checkbox" name="sqnmlvy" id="sqnmlvy" value=""/>
+              <label for="sqnmlvy">Sqnmlvy</label>
+              <span
+                class="mx-5"
+                data-toggle="tooltip"
+                data-title="Check if first shewa in waw-consecutive form is vocal even with missing dagesh"
+                data-placement="right">
+                <i class="fi-cnsdxm-exclamation-mark"></i>
+              </span>
+            </div>
+            <!-- wawShureq checkbox -->
+            <div class="col-sm custom-checkbox form-group">
+              <input type="checkbox" name="wawShureq" id="wawShureq" value=""/>
+              <label for="wawShureq">Waw Shureq</label>
+              <span
+                class="mx-5"
+                data-toggle="tooltip"
+                data-title="Check to regard a shewa after a waw-shureq as vocal"
+                data-placement="right">
+                <i class="fi-cnsdxm-exclamation-mark"></i>
+              </span>
+            </div>
+          </div>
+          <div
+            class="row">
+            <!-- article checkbox -->
+            <div class="col-sm custom-checkbox form-group">
+              <input type="checkbox" name="sqnmlvy" id="article" value=""/>
+              <label for="article">Article</label>
+              <span
+                class="mx-5"
+                data-toggle="tooltip"
+                data-title="Check if shewa after article is vocal even with missing dagesh"
+                data-placement="right">
+                <i class="fi-cnsdxm-exclamation-mark"></i>
+              </span>
+            </div>
+          </div>
+          <!-- Row 2 end -->
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- SYLLABIFICATION end -->
+  <!-- OTHER ORTHOGRAPHIES start -->
+  <div class="modal-card d-none" id="orthographies-modal">
+    <h5 class="modal-title">Other Orthographies</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 77%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="77"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <form id="orthographies-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div
+              class="col-sm">
+              <!-- DAGESH -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="DAGESH">Dagesh</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="DAGESH" id="DAGESH"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Typically blank" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- MAQAF -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="MAQAF">Maqaf ־◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="MAQAF" id="MAQAF"/>
+                </div>
+              </div>
+              <!-- SYLLABLE_SEPARATOR -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SYLLABLE_SEPARATOR">Syllable Separator</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SYLLABLE_SEPARATOR" id="SYLLABLE_SEPARATOR"/>
+                  <span class="mx-5" data-toggle="tooltip" data-title="Typically blank" data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- Middle Col -->
+            <div
+              class="col-sm">
+              <!-- PASEQ -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="PASEQ">Paseq ׀ ◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="PASEQ" id="PASEQ"/>
+                  <span
+                    class="mx-5"
+                    data-toggle="tooltip"
+                    data-title="if blank, two spaces will occur between words"
+                    data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+              <!-- SOF_PASUQ -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="SOF_PASUQ">Sof Pasuq ׃◌</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="SOF_PASUQ" id="SOF_PASUQ"/>
+                </div>
+              </div>
+              <!-- MS_SUFX -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="MS_SUFX">3ms Suffix יו◌ָ</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="MS_SUFX" id="MS_SUFX"/>
+                </div>
+              </div>
+            </div>
+            <!-- Right Col -->
+            <div
+              class="col-sm">
+              <!-- DIVINE_NAME -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="DIVINE_NAME">Divine Name יהוה</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="DIVINE_NAME" id="DIVINE_NAME"/>
+                </div>
+              </div>
+              <!-- DIVINE_NAME -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="DIVINE_NAME_ELOHIM">Divine Name יֱהֹוִה</label>
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control w-half" name="DIVINE_NAME_ELOHIM" id="DIVINE_NAME_ELOHIM"/>
+                </div>
+              </div>
+              <!-- DAGESH_CHAZAQ -->
+              <div class="col flex-fill font-size-16 mt-5">
+                <label for="DAGESH_CHAZAQ">Doubling Dagesh</label>
+                <div class="d-flex align-items-center">
+                  <input type="checkbox" name="DAGESH_CHAZAQ" id="DAGESH_CHAZAQ" value=""/>
+                  <span
+                    class="mx-5"
+                    data-toggle="tooltip"
+                    data-title="Check to repeat the consonant with a dagesh chazaq/forte"
+                    data-placement="bottom">
+                    <i class="fi-cnsdxm-exclamation-mark"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- OTHER ORTHOGRAPHIES end -->
+  <!-- STRESS MARKER start -->
+  <div class="modal-card d-none" id="stress-modal">
+    <h5 class="modal-title">Stress Marker</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 88%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="88"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <p>An optional mark to indicate stress. Text must have taamim/cantillation to indicate stress.</p>
+    <form id="stress-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div class="col-sm">
+              <div class="col flex-fill font-size-16 mt-5">
+                <div class="d-flex align-items-center mb-10" id="STRESS_MARKER">
+                  <div class="col-3 mr-5">
+                    <label for="mark">Mark</label>
+                    <div class="d-flex align-items-center">
+                      <input type="text" class="form-control" name="mark" id="mark"/>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <label for="location">Location</label>
+                    <select name="location" class="form-control" id="location">
+                      <option value="">...</option>
+                      <option value="before-syllable">before-syllable (e.g šā'lôm)</option>
+                      <option value="after-syllable">after-syllable (e.g šālôm')</option>
+                      <option value="before-vowel">before-vowel (e.g šāl'ôm)</option>
+                      <option value="after-vowel">after-vowel (e.g šālô'm)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- STRESS MARKER end -->
+  <!-- ADDITIONAL FEATURES start -->
+  <div class="modal-card d-none" id="features-modal">
+    <h5 class="modal-title">Additional Features</h5>
+    <!-- Progress bars -->
+    <div class="progress mb-10">
+      <div
+        class="progress-bar"
+        style="width: 100%"
+        role="progressbar"
+        aria-labelledby="customization"
+        aria-valuenow="100"
+        aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <p>An optional property to define non-typical Hebrew orthographies (e.g. זּ as 'tz').
+    </p>
+    <div class="alert alert-secondary" role="alert">
+      This is an advanced feature for unique cases. See
+      <a href="https://github.com/charlesLoder/hebrew-transliteration#4-others" class="alert-link">the docs</a>
+      for more information.
+    </div>
+    <form id="features-form">
+      <div class="form-group">
+        <div class="container-sm">
+          <div
+            class="row">
+            <!-- Left Col -->
+            <div class="col-sm">
+              <div class="col flex-fill font-size-16 mt-5">
+                <h5>Additional Features</h5>
+                <div id="ADDITIONAL_FEATURES"></div>
+                <div class="d-flex justify-content-end">
+                  <button id='additional-feature-btn' class="btn btn-success btn-square ml-auto" type="button">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- ADDITIONAL FEATURES end -->
+
+      </div>
+      <!-- Modal Cards end -->
+      
+  <!-- Schema button footer start -->
+  <div class="dropdown-divider my-15"></div>
+<div
+  class="btn-container d-flex justify-content-between">
+  <!-- Previous -->
+  <button class="btn btn-primary mr-auto wizard-btn d-none" id="prev-btn">Previous</button>
+  <!-- Next -->
+  <button class="btn btn-primary ml-auto wizard-btn d-block" id="next-btn">Next</button>
+  <div class="text-right wizard-btn d-none" id="final-btn">
+    <a href="#" class="btn btn-success ml-auto text-dark" role="button">Done</a>
+  </div>
+</div>
+  <p>You can save a schema by downloading it for later.</p>
+  <button class="btn btn-primary w-full" id="download-schema">Download schema</button>
+  <!-- Schema button footer end -->
+
+    </div>
+    <!-- Modal Content end -->
+  </div>
+  <!-- Modal Dialog end -->
+</div>
+      <!-- Modal end -->
+    
+      <!-- Modal start -->
+      <div
+  class="modal" id="tips-modal" tabindex="-1" role="dialog">
+  <!-- Modal Dialog start -->
+  <div
+    class="modal-dialog" role="document">
+    <!-- Modal Content start -->
+    <div class="modal-content">
+      <a href="#" class="btn close" role="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </a>
+      <!-- Modal Cards start -->
+      <div class="modal-cards" id="modal-cards">
+        
+  <div class="modal-card d-block" id="tips-1">
+    <h5 class="modal-title">Tips</h5>
+    <!-- Customize Panel start -->
+    <details class="collapse-panel w-400 mw-full">
+      <summary class="collapse-header">
+        Customize transliteration
+      </summary>
+      <div class="collapse-content">
+        Customize your transliteration by choosing a default transliteration schema and adjusting it accordingly.
+        <br>
+          Try it
+          <a href="#schema-modal">here.</a>
+        </div>
+      </details>
+      <!-- Customize Panel end -->
+      <!-- Niqqud Panel start -->
+      <details class="collapse-panel w-400 mw-full mt-20">
+        <summary class="collapse-header">
+          Niqqud
+        </summary>
+        <div class="collapse-content">
+          Use a text that has niqqud (i.e. vowels) for best results. If there is no niqqud, then only the consonants will be
+          transliterated.
+        </div>
+      </details>
+      <!-- Niqqud Panel end -->
+      <!-- Qamets Qatan Panel start -->
+      <details class="collapse-panel w-400 mw-full mt-20">
+        <summary class="collapse-header">
+          Qamets Qatan
+        </summary>
+        <div class="collapse-content">
+          <p>This tool can convert and transliterate Qamets characters as
+            <a href="https://www.compart.com/en/unicode/U+05C7">Qamets Qatan</a>
+            characters, but exceptions may occur. It is best at detecting them in Biblical texts.</p>
+          <p>If correct Qamets Qatan transliteration is essential, consider using the
+            <i>Miqra according to the Masorah</i>
+            text as found on
+            <a href="https://www.sefaria.org/">Sefaria</a>.</p>
+        </div>
+      </details>
+      <!-- Qamets Qatan Panel end -->
+    </div>
+  
+      </div>
+      <!-- Modal Cards end -->
+      
+    <div class="dropdown-divider my-15"></div>
+<div
+  class="btn-container d-flex justify-content-between">
+  <!-- Previous -->
+  <button class="btn btn-primary mr-auto wizard-btn d-none" id="prev-btn">Previous</button>
+  <!-- Next -->
+  <button class="btn btn-primary ml-auto wizard-btn d-block" id="next-btn">Next</button>
+  <div class="text-right wizard-btn d-none" id="final-btn">
+    <a href="#" class="btn btn-success ml-auto text-dark" role="button">Done</a>
+  </div>
+</div>
+  
+    </div>
+    <!-- Modal Content end -->
+  </div>
+  <!-- Modal Dialog end -->
+</div>
+      <!-- Modal end -->
+    
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar">
+      <div class="nav-bar-wrapper bg-white-lm bg-dark-light-dm py-10 border-bottom">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col d-flex justify-content-center">
+        <!-- Navbar Start -->
+        <nav
+          class="navbar px-md-0 mx-sm-20 w-full w-md-three-quarter bg-white-lm bg-dark-light-dm border-0">
+          <!-- Navbar brand start -->
+          <div class="navbar-brand">
+            <a class="text-light-dm text-dark-lm" style="text-decoration: none;" href="/">Hebrew Transliteration</a>
+          </div>
+          <!-- Navbar brand end -->
+          <!-- Navbar content -->
+          <div
+            class="navbar-content ml-auto">
+            <!-- Darkmode Btn start -->
+            <button class="btn border btn-action mr-5" type="button" id="dm-toggle" aria-label="Toggle dark mode">
+              <i class="fi-xnsuxl-bulb-solid"></i>
+            </button>
+            <!-- Darkmode Btn end -->
+            <!-- Nav Link Btns start -->
+            <div class="mr-5 hidden-md-and-down">
+              
+                <a href="/" class="btn border">Transliterate</a>
+              
+                <a href="/remove" class="btn border">Remove</a>
+              
+                <a href="/structure" class="btn border">Structure</a>
+              
+                <a href="/about" class="btn border">About</a>
+              
+            </div>
+            <!-- Nav Link Btns end -->
+            <!-- Dropdown menu start -->
+            <div class="dropdown with-arrow hidden-lg-and-up">
+              <button class="btn" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1">Menu
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1">
+                
+                  <a href="/" class="dropdown-item">Transliterate</a>
+                
+                  <a href="/remove" class="dropdown-item">Remove</a>
+                
+                  <a href="/structure" class="dropdown-item">Structure</a>
+                
+                  <a href="/about" class="dropdown-item">About</a>
+                
+              </div>
+            </div>
+            <!-- Dropdown menu end -->
+          </div>
+          <!-- Navbar content end -->
+        </nav>
+        <!-- Navbar End -->
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Content wrapper start -->
+      <div class="content-wrapper position-static bg-light-lm bg-very-dark-dm">
+        
+  <div class="container">
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <main class="card w-full w-md-three-quarter shadow-lg bg-dark-light-dm">
+          <h1 class="card-title font-size-24">
+            
+          </h1>
+          
+  
+  <div class="txt-area-wrapper d-flex flex-column">
+    <div class="alert alert-secondary mb-10 font-size-12" role="alert" id="browser-alert" hidden>
+      The recommended browsers are Chrome or Firefox for desktop.
+      <br>Everything will work fine! There may be a little lag though.
+      </div>
+      
+      <textarea class="form-control heb-text-area font-size-24" placeholder="עִבְרִית" dir="rtl" id="input"></textarea>
+      <div class="mt-10 font-size-12 font-italic" role="alert" id="last-visit" hidden>
+        using transliteration schema from last visit, click Settings to change
+      </div>
+      <div class="sk-chase mx-auto d-none" id="spinner">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+      <button class="btn btn-primary mx-auto my-20" id="action-btn">
+        <span id="btn-txt" class="">Transliterate</span>
+      </button>
+      
+      <textarea class="form-control transliteration-text-area font-size-20 text-extra-letter-spacing" placeholder="" dir="ltr" id="output"></textarea>
+      <div
+        id="controls-container"
+        class="d-flex flex-column-reverse flex-sm-row justify-content-between align-items-center mt-20">
+        <div id="left-controls" class="w-full w-sm-auto">
+          <a href="#feedback-modal" class="btn btn-primary w-full" role="button">Feedback</a>
+        </div>
+        
+          <div id="right-controls" class="d-flex flex-column flex-sm-row-reverse justify-content-between w-full w-sm-auto">
+            
+              <div class="ml-sm-5 ml-md-0">
+                <a href="#schema-modal" class="btn btn-primary w-full w-md-auto mb-20 mb-sm-0 ml-md-20" role="button">Settings</a>
+              </div>
+            
+              <div class="ml-sm-5 ml-md-0">
+                <a href="#tips-modal" class="btn btn-primary w-full w-md-auto mb-20 mb-sm-0 ml-md-20" role="button">Tips</a>
+              </div>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+      <script defer="true" type="modlue" src="/assets/transliterate.js"></script>
+    
+  
+          <div class="dropdown-divider my-15"></div>
+          <footer class="d-flex flex-column flex-md-row align-items-center align-items-md-start  justify-content-between mt-10">
+            <div class="d-flex flex-column">
+              <a href="https://www.buymeacoffee.com/charlesLoder" target="_blank" rel="noopener noreferrer">
+                <img width="150" height="43" class="img-fluid" src="/assets/img/bmc-button.svg" alt="Buy me a coffee!"/>
+              </a>
+              <div class="mt-5">&copy;&nbsp;2024 Charles&nbsp;Loder</div>
+            </div>
+            <div class="d-flex flex-column align-items-start mt-5 mt-md-0">
+              <p class="d-none d-md-block mb-5 mt-0">Follow me on:</p>
+              <div class="d-flex justify-content-start gap-1">
+                
+                  <a href="https://twitter.com/charles_loder" aria-label="Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fi-snsux2-twitter-solid"></i>
+                  </a>
+                
+                  <a href="https://dev.to/charlesloder" aria-label="Dev.to" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fi-snsux2-dev-to"></i>
+                  </a>
+                
+                  <a href="https://github.com/charlesLoder" aria-label="Github" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fi-snsux2-github-alt"></i>
+                  </a>
+                
+                  <a href="https://independentresearcher.academia.edu/CharlesLoder" aria-label="Academia.edu" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fi-snsuh2-graduation-cap-solid"></i>
+                  </a>
+                
+                  <a href="https://www.linkedin.com/in/charles-loder/" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fi-snsux2-linkedin"></i>
+                  </a>
+                
+              </div>
+              <div class="font-size-12 font-italic mx-auto mx-md-0 ml-md-auto mt-10">icons by
+                <a class="hyperlink text-reset" href="https://friconix.com/" target="_blank" rel="noopener noreferrer">friconix</a>
+              </div>
+            </div>
+          </footer>
+          <div class="d-flex flex-column flex-md-row mt-5 align-items-center justify-content-between">
+            <div class="font-size-12 text-center text-md-left">
+              <a class="hyperlink text-reset" href="https://github.com/charlesLoder/hebrew-transliteration" target="_blank" rel="noopener noreferrer">
+                hebrew-transliteration: 2.6.5
+              </a>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  
+    <script defer="true" src="/assets/transliterate.js"></script>
+  
+
+      </div>
+      <!-- Content wrapper end -->
+    </div>
+    <!-- Page wrapper end -->
+    <script>
+      const toggle = document.querySelector('#dm-toggle');
+      toggle.addEventListener('click', () => halfmoon.toggleDarkMode())
+    </script>
+  </body>
+</html>
